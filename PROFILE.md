@@ -1,6 +1,6 @@
 #Here is my code for the ur5e robot. It's pretty simple for now, but will become more complicated.
 #I need to import the robotiqGripper lib too, but haven't figured that part out yet.
-
+#Everything under this is code:
 
 from rtde_control import RTDEControlInterface as RTDEControl
 from rtde_receive import RTDEReceiveInterface as RTDEReceive
