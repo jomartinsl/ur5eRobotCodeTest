@@ -3,13 +3,19 @@
 #Everything under this is code:
 
 from rtde_control import RTDEControlInterface as RTDEControl
+
 from rtde_receive import RTDEReceiveInterface as RTDEReceive
 
 rtde_c = RTDEControl("172.31.1.144")
+
 rtde_r = RTDEReceive("172.31.1.144")
+
 RobotStart = True 
+
 OnlyPosition = True
+
 getActual_q = rtde_r.getActualQ()
+
 tcpPos = rtde_r.getTargetTCPPose()
 
 startPos = [-1.70, -2.186, 1.976, -1.343, 4.739, -0.052]
