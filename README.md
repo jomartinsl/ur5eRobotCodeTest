@@ -6,7 +6,8 @@ Making a ur5e robot play chess vs a human opponoment.
 
 Here is a picture of the robot I'm currently using and will be using for the rest of this project:
 
-![image](https://github.com/jomartinsl/jomartinsl/assets/131768274/d7a20773-c669-4f7a-9223-bbee51f2cde6= 250x250) 
+![ur5erobotbilde skalert](https://github.com/jomartinsl/jomartinsl/assets/131768274/7818a127-1d3e-46da-9cfc-8fe9b1328e94)
+
 The litte lemon soda box is used for testing.
 
 
