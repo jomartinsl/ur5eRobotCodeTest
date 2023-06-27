@@ -1,5 +1,4 @@
-#Test code
-```
+
 from rtde_control import RTDEControlInterface as RTDEControl
 from rtde_receive import RTDEReceiveInterface as RTDEReceive
 from Classes.robotiq_gripper_control import RobotiqGripper
@@ -91,7 +90,6 @@ if RobotStart:
 	else:
 		print(getActual_q)
 	
-```
 	
 	
 
