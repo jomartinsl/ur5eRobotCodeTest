@@ -1,6 +1,8 @@
 # Summerproject 2023
 
-Making a ur5e robot play chess vs a human opponoment. 
+Making a ur5e robot play chess vs a human opponoment.
+
+
 ![Ur5e robot arm looki jpg](https://github.com/jomartinsl/jomartinsl/assets/131768274/e0486f94-c5e9-49b3-be34-77783136941e)
 
 
