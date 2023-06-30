@@ -39,18 +39,22 @@ class Posisjoner:
     #08.14, 30.06.2023 sist endret, programmet gjører fint:
     idlePos = rtde_c.moveL(ChessPositionsCalculator.startPosition())
     
-    sjakkbrikke = ChessPositionsCalculator.getPosition('a1')
+    sjakkbrikke = ChessPositionsCalculator.getPosition('a5')
     GårTilPosisjon = rtde_c.moveL(sjakkbrikke,0.25,1.2,False)
     sjakkbrikke[2] = ChessPositionsCalculator.lower()
     senkArm = rtde_c.moveL(sjakkbrikke,0.25,1.2,False)
     gripper.move(10)
     sjakkbrikke[2] = ChessPositionsCalculator.elevate()
     løftArm = rtde_c.moveL(sjakkbrikke,0.25,1.2,False)
-    sjakkbrikke = ChessPositionsCalculator.getPosition('a3')
+    sjakkbrikke = ChessPositionsCalculator.getPosition('b1')
     GårTilPosisjon = rtde_c.moveL(sjakkbrikke,0.25,1.2,False)
+    løftArmIgjen = copy.deepcopy(sjakkbrikke)
     sjakkbrikke[2] = ChessPositionsCalculator.lower()
     senkArm = rtde_c.moveL(sjakkbrikke,0.25,1.2,False)
     gripper.move(50)
+    GårTilPosisjon = rtde_c.moveL(løftArmIgjen,0.25,1.2,False)
+    idlePos = rtde_c.moveL(ChessPositionsCalculator.startPosition())
+    
     #______________________________________________________
 
 
