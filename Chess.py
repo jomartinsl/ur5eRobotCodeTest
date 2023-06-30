@@ -48,7 +48,7 @@ class Posisjoner:
     løftArm = rtde_c.moveL(sjakkbrikke,0.25,1.2,False)
     sjakkbrikke = ChessPositionsCalculator.getPosition('b1')
     GårTilPosisjon = rtde_c.moveL(sjakkbrikke,0.25,1.2,False)
-    løftArmIgjen = copy.deepcopy(sjakkbrikke)
+    løftArmIgjen = copy.deepcopy(sjakkbrikke) #Deepcopy
     sjakkbrikke[2] = ChessPositionsCalculator.lower()
     senkArm = rtde_c.moveL(sjakkbrikke,0.25,1.2,False)
     gripper.move(50)
